@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-library/static/css/main.b8f4185a.css",
+    "main.js": "/react-library/static/js/main.2a095d9c.js",
+    "static/media/image-4.jpg": "/react-library/static/media/image-4.3e2078d97fb938c45a1f.jpg",
+    "static/media/image-1.jpg": "/react-library/static/media/image-1.86d0184018dc31bf83dc.jpg",
+    "static/media/image-3.jpg": "/react-library/static/media/image-3.8ac4c6640b4f274c92b5.jpg",
+    "static/media/book-luv2code-1000.png": "/react-library/static/media/book-luv2code-1000.8b0fd6cd7d7fda67040d.png",
+    "static/media/image-2.jpg": "/react-library/static/media/image-2.8bb6b32b528986b15fd0.jpg",
+    "index.html": "/react-library/index.html",
+    "main.b8f4185a.css.map": "/react-library/static/css/main.b8f4185a.css.map",
+    "main.2a095d9c.js.map": "/react-library/static/js/main.2a095d9c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8f4185a.css",
+    "static/js/main.2a095d9c.js"
+  ]
+}
