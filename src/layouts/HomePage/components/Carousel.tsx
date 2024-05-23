@@ -4,7 +4,7 @@ export const Carousel = () => {
   return (
     <div className="container mt-5" style={{ height: 550 }}>
       <div className="homepage-carousel-title">
-        <h3>Find your next "I staye up too late reading" book.</h3>
+        <h3>Find your next "I stayed up too late reading" book.</h3>
       </div>
       <div
         id="carouselExampleControls"
@@ -15,25 +15,25 @@ export const Carousel = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <div className="row d-flex justify-content-center align-items-center">
-              <ReturnBook/>
-              <ReturnBook/>
-              <ReturnBook/>
+              <ReturnBook />
+              <ReturnBook />
+              <ReturnBook />
             </div>
           </div>
 
           <div className="carousel-item">
             <div className="row d-flex justify-content-center align-items-center">
-            <ReturnBook/>
-            <ReturnBook/>
-            <ReturnBook/>
+              <ReturnBook />
+              <ReturnBook />
+              <ReturnBook />
             </div>
           </div>
 
           <div className="carousel-item">
             <div className="row d-flex justify-content-center align-items-center">
-            <ReturnBook/>
-            <ReturnBook/>
-            <ReturnBook/>
+              <ReturnBook />
+              <ReturnBook />
+              <ReturnBook />
             </div>
           </div>
         </div>
@@ -65,7 +65,7 @@ export const Carousel = () => {
       {/* Mobile */}
       <div className="d-lg-none mt-3">
         <div className="row d-flex justify-content-center align-items-center">
-        <ReturnBook/>
+          <ReturnBook />
         </div>
       </div>
       <div className="homepage-carousel-title mt-3">
