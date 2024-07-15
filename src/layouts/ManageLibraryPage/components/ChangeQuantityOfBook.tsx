@@ -21,7 +21,7 @@ export const ChangeQuantityOfBook: React.FC<{
   }, []);
 
   async function increaseQuantity() {
-    const url = `Spring-Boot-Library.us-east-1.elasticbeanstalk.com/api/admin/secure/increase/book/quantity?bookId=${props.book?.id}`;
+    const url = `localhost:8080/api/admin/secure/increase/book/quantity?bookId=${props.book?.id}`;
     const requestOptions = {
       method: "PUT",
       headers: {
@@ -39,7 +39,7 @@ export const ChangeQuantityOfBook: React.FC<{
   }
 
   async function decreaseQuantity() {
-    const url = `Spring-Boot-Library.us-east-1.elasticbeanstalk.com/api/admin/secure/decrease/book/quantity?bookId=${props.book?.id}`;
+    const url = `localhost:8080/api/admin/secure/decrease/book/quantity?bookId=${props.book?.id}`;
     const requestOptions = {
       method: "PUT",
       headers: {
@@ -57,7 +57,7 @@ export const ChangeQuantityOfBook: React.FC<{
   }
 
   async function deleteBook() {
-    const url = `Spring-Boot-Library.us-east-1.elasticbeanstalk.com/api/admin/secure/delete/book?bookId=${props.book?.id}`;
+    const url = `localhost:8080/api/admin/secure/delete/book?bookId=${props.book?.id}`;
     const requestOptions = {
       method: "DELETE",
       headers: {

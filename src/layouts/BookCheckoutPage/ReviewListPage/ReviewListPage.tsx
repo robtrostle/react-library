@@ -20,7 +20,7 @@ export const ReviewListPage = () => {
 
   useEffect(() => {
     const fetchBookReviewsData = async () => {
-      const reviewUrl: string = `Spring-Boot-Library.us-east-1.elasticbeanstalk.com/api/reviews/search/findByBookId?bookId=${bookId}&page=${
+      const reviewUrl: string = `localhost:8080/api/reviews/search/findByBookId?bookId=${bookId}&page=${
         currentPage - 1
       }&size=${reviewsPerPage}`;
 

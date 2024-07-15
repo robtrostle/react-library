@@ -20,7 +20,7 @@ export const HistoryPage = () => {
   useEffect(() => {
     const fetchUserHistory = async () => {
       if (authState && authState.isAuthenticated) {
-        const url = `Spring-Boot-Library.us-east-1.elasticbeanstalk.com/api/histories/search/findBooksByUserEmail?userEmail=${
+        const url = `localhost:8080/api/histories/search/findBooksByUserEmail?userEmail=${
           authState.accessToken?.claims.sub
         }&page=${currentPage - 1}&size=5`;
         const requestOptions = {

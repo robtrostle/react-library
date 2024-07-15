@@ -39,7 +39,7 @@ export const AddNewBook = () => {
   }
 
   async function submitNewBook() {
-    const url = `Spring-Boot-Library.us-east-1.elasticbeanstalk.com/api/admin/secure/add/book`;
+    const url = `localhost:8080/api/admin/secure/add/book`;
     if (
       authState?.isAuthenticated &&
       title !== "" &&

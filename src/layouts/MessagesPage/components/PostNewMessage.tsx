@@ -10,7 +10,7 @@ export const PostNewMessage = () => {
   const [displaySuccess, setDisplaySuccess] = useState(false);
 
   async function submitNewQuestion() {
-    const url = `Spring-Boot-Library.us-east-1.elasticbeanstalk.com/api/messages/secure/add/message`;
+    const url = `localhost:8080/api/messages/secure/add/message`;
     if (authState?.isAuthenticated && title !== "" && question !== "") {
       const messageRequestModel: MessageModel = new MessageModel(
         title,
