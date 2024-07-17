@@ -2,7 +2,7 @@
   "name": "react-library",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://robtrostle.github.io/",
+  "homepage": "https://robtrostle.github.io/react-library/",
   "dependencies": {
     "@okta/okta-react": "^6.4.3",
     "@okta/okta-signin-widget": "^6.3.3",
@@ -22,7 +22,7 @@
     "ws": ">=8.17.1"
   },
   "scripts": {
-    "start": "set HTTPS=true&&react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
