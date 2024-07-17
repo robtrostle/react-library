@@ -18,7 +18,7 @@ export const ChangeQuantityOfBooks = () => {
 
   useEffect(() => {
     const fetchBooks = async () => {
-      const baseUrl: string = `Spring-Boot-Library.us-east-1.elasticbeanstalk.com/api/books?page=${
+      const baseUrl: string = `${process.env.REACT_APP_API}/books?page=${
         currentPage - 1
       }&size=${booksPerPage}`;
 

@@ -27,15 +27,17 @@ export const AdminMessages = () => {
   useEffect(() => {
     const fetchUserMessages = async () => {
       if (authState && authState.isAuthenticated) {
-        const url = `Spring-Boot-Library.us-east-1.elasticbeanstalk.com/api/messages/search/findByClosed?closed=false&page=${
+        const url = `${
+          process.env.REACT_APP_API
+        }/messages/search/findByClosed?closed=false&page=${
           currentPage - 1
         }&size=${messagesPerPage}`;
         const requestOptions = {
-                    method: 'GET',
+          method: "GET",
           headers: {
             Authorization: `Bearer ${authState.accessToken?.accessToken}`,
-                        'Content-Type': 'application/json'
-                    }
+            "Content-Type": "application/json",
+          },
         };
         const messagesResponse = await fetch(url, requestOptions);
         if (!messagesResponse.ok) {
@@ -68,7 +70,7 @@ export const AdminMessages = () => {
   }
 
   async function submitResponseToQuestion(id: number, response: string) {
-    const url = `Spring-Boot-Library.us-east-1.elasticbeanstalk.com/api/messages/secure/admin/message`;
+    const url = `${process.env.REACT_APP_API}/messages/secure/admin/message`;
     if (
       authState &&
       authState?.isAuthenticated &&

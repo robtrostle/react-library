@@ -18,8 +18,7 @@ export const SearchBooksPage = () => {
 
   useEffect(() => {
     const fetchBooks = async () => {
-      const baseUrl: string =
-        "Spring-Boot-Library.us-east-1.elasticbeanstalk.com/api/books";
+      const baseUrl: string = `${process.env.REACT_APP_API}/books`;
 
       let url: string = ``;
 
