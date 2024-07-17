@@ -1,8 +1,8 @@
 {
   "name": "react-library",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://robtrostle.github.io/react-library/",
+  "private": false,
+  "homepage": "https://robtrostle.github.io/",
   "dependencies": {
     "@okta/okta-react": "^6.4.3",
     "@okta/okta-signin-widget": "^6.3.3",
