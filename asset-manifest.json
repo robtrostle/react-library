@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-library/static/css/main.705980a4.css",
-    "main.js": "/react-library/static/js/main.942c17ce.js",
+    "main.css": "/react-library/static/css/main.9520f0dc.css",
+    "main.js": "/react-library/static/js/main.18d4fad8.js",
     "static/media/image-4.jpg": "/react-library/static/media/image-4.3e2078d97fb938c45a1f.jpg",
     "static/media/image-1.jpg": "/react-library/static/media/image-1.86d0184018dc31bf83dc.jpg",
     "static/media/image-3.jpg": "/react-library/static/media/image-3.8ac4c6640b4f274c92b5.jpg",
@@ -32,11 +32,12 @@
     "static/media/google-play-store.svg": "/react-library/static/media/google-play-store.1d8f7bc81e1b4193482d.svg",
     "static/media/user-icon.svg": "/react-library/static/media/user-icon.6c8f8491ebb11a78bf68.svg",
     "index.html": "/react-library/index.html",
-    "main.705980a4.css.map": "/react-library/static/css/main.705980a4.css.map",
-    "main.942c17ce.js.map": "/react-library/static/js/main.942c17ce.js.map"
+    "static/media/custom-app-default-logo.svg": "/react-library/static/media/custom-app-default-logo.2c8dcf0b9018c42595b4.svg",
+    "main.9520f0dc.css.map": "/react-library/static/css/main.9520f0dc.css.map",
+    "main.18d4fad8.js.map": "/react-library/static/js/main.18d4fad8.js.map"
   },
   "entrypoints": [
-    "static/css/main.705980a4.css",
-    "static/js/main.942c17ce.js"
+    "static/css/main.9520f0dc.css",
+    "static/js/main.18d4fad8.js"
   ]
 }
