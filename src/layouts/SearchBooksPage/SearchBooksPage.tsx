@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import BookModel from '../../models/BookModel';
-import { Pagination } from '../Utils/Pagination';
+// import { Pagination } from '../Utils/Pagination';
 import { SpinnerLoading } from '../Utils/SpinnerLoading';
 import { SearchBook } from './components/SearchBook';
 
@@ -213,13 +213,13 @@ export const SearchBooksPage = () => {
               </a>
             </div>
           )}
-          {totalPages > 1 && (
+          {/* {totalPages > 1 && (
             <Pagination
               currentPage={currentPage}
               totalPages={totalPages}
               paginate={paginate}
             />
-          )}
+          )} */}
         </div>
       </div>
     </div>
