@@ -32,7 +32,11 @@ export const SearchBooksPage = () => {
         url = baseUrl + searchWithPage;
       }
 
-      const response = await fetch(url);
+      const response = await fetch(url, {
+        headers:{
+          accept: 'application/json'
+        }
+      });
 
       if (!response.ok) {
         throw new Error("Something went wrong!");
