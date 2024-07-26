@@ -34,7 +34,7 @@ export const SearchBooksPage = () => {
 
       const response = await fetch(url, {
         headers:{
-          accept: 'application/json'
+          mode: 'no-cors'
         }
       });
 
