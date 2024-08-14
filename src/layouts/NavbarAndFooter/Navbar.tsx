@@ -37,13 +37,20 @@ export const Navbar = () => {
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/search">
-                Search Books
+                Search
               </NavLink>
             </li>
             {authState.isAuthenticated && (
               <li className="nav-item">
                 <NavLink className="nav-link" to="/shelf">
                   Shelf
+                </NavLink>
+              </li>
+            )}
+            {authState.isAuthenticated && (
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/messages">
+                  Messages
                 </NavLink>
               </li>
             )}
