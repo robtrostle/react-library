@@ -13,6 +13,7 @@ import { ReviewListPage } from "./layouts/BookCheckoutPage/ReviewListPage/Review
 import { ShelfPage } from './layouts/ShelfPage/ShelfPage';
 import { MessagesPage } from "./layouts/MessagesPage/MessagePage";
 import { ManageLibraryPage } from './layouts/ManageLibraryPage/ManageLibraryPage';
+import { ContactUs } from "./layouts/Contact/ContactUs";
 
 const oktaAuth = new OktaAuth(oktaConfig);
 
@@ -43,6 +44,9 @@ export const App = () => {
               </Route>
               <Route path='/search'>
                 <SearchBooksPage />
+              </Route>
+              <Route path='/contactus'>
+                <ContactUs />
               </Route>
               <Route path='/reviewlist/:bookId'>
                 <ReviewListPage />
